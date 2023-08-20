@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetpackBasics"
+        tools:targetApi="31">
+        <activity
+            android:name=".bestPractices.permissionHandling.PermissionHandling"
+            android:exported="false"
+            android:label="@string/title_activity_permission_handling"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".multiSelectLazyColumn.MultiSelectLazyColumn"
+            android:exported="false"
+            android:label="@string/title_activity_multi_select_lazy_column"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".bottomNavWithBadges.BottomNavWithBadges"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav_with_badges"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".AnimatedSplashScreen"
+            android:exported="false"
+            android:label="@string/title_activity_animated_splash_screen"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".navigation.FirstActivity"
+            android:exported="false"
+            android:label="@string/title_activity_first"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".AnimatedDropDownBox"
+            android:exported="false"
+            android:label="@string/title_activity_animated_drop_down_box"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".AnimatedProgressBar"
+            android:exported="false"
+            android:label="@string/title_activity_animated_progress_bar"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_animation"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackBasics">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jetpack Basics</string>
+    <string name="title_activity_effect_handlers">EffectHandlers</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_animated_progress_bar">AnimatedProgressBar</string>
+    <string name="title_activity_animated_drop_down_box">AnimatedDropDownBox</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_animated_splash_screen">AnimatedSplashScreen</string>
+    <string name="title_activity_bottom_nav_with_badges">BottomNavWithBadges</string>
+    <string name="title_activity_multi_select_lazy_column">MultiSelectLazyColumn</string>
+    <string name="title_activity_permission_handling">PermissionHandling</string>
+</resources>
