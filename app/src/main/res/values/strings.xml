@@ -9,4 +9,6 @@
     <string name="title_activity_bottom_nav_with_badges">BottomNavWithBadges</string>
     <string name="title_activity_multi_select_lazy_column">MultiSelectLazyColumn</string>
     <string name="title_activity_permission_handling">PermissionHandling</string>
+    <string name="title_activity_customizing_theme">CustomizingTheme</string>
+    <string name="title_activity_support_screen_sizes">SupportScreenSizes</string>
 </resources>
