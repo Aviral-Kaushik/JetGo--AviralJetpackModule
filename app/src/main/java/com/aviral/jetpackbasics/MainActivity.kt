@@ -1,6 +1,7 @@
 package com.aviral.jetpackbasics
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -54,6 +55,7 @@ import androidx.navigation.compose.rememberNavController
 import com.aviral.jetpackbasics.bottomNavWithBadges.BottomNavItem
 import com.aviral.jetpackbasics.bottomNavWithBadges.BottomNavWithBadges
 import com.aviral.jetpackbasics.bottomNavWithBadges.BottomNavigationBar
+import com.aviral.jetpackbasics.pagination.Pagination
 import com.aviral.jetpackbasics.ui.theme.JetpackBasicsTheme
 import kotlinx.coroutines.launch
 import kotlin.random.Random
@@ -65,35 +67,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             JetpackBasicsTheme {
-                val navController = rememberNavController()
-                Scaffold(
-                    bottomBar = {
-                        BottomNavigationBar(items = listOf(
-                            BottomNavItem(
-                                name = "Home",
-                                route = "home",
-                                icon = Icons.Default.Home
-                            ),
-                            BottomNavItem(
-                                name = "Chat",
-                                route = "chat",
-                                icon = Icons.Default.Notifications,
-                                badgeCount = 23
-                            ),
-                            BottomNavItem(
-                                name = "Settings",
-                                route = "settings",
-                                icon = Icons.Default.Settings
-                            ),
-                        ), navController = navController,
-                            onItemClick = {
-                                navController.navigate(it.route)
-                            }
-                        )
-                    }
-                ) {
-                    Navigation(navController = navController)
-                }
+                startActivity(Intent(this, Pagination::class.java))
             }
         }
     }

@@ -15,6 +15,16 @@
         android:theme="@style/Theme.JetpackBasics"
         tools:targetApi="31">
         <activity
+            android:name=".pagination.Pagination"
+            android:exported="false"
+            android:label="@string/title_activity_pagination"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
+            android:name=".ComplexAnimations"
+            android:exported="false"
+            android:label="@string/title_activity_complex_animation"
+            android:theme="@style/Theme.JetpackBasics" />
+        <activity
             android:name=".supportAllScreenSizes.SupportAllScreenSizes"
             android:exported="false"
             android:label="@string/title_activity_support_screen_sizes"

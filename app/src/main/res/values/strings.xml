@@ -11,4 +11,6 @@
     <string name="title_activity_permission_handling">PermissionHandling</string>
     <string name="title_activity_customizing_theme">CustomizingTheme</string>
     <string name="title_activity_support_screen_sizes">SupportScreenSizes</string>
+    <string name="title_activity_complex_animation">ComplexAnimation</string>
+    <string name="title_activity_pagination">Pagination</string>
 </resources>
